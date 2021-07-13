@@ -1,6 +1,6 @@
-#This documentation is to answer number 2.
+# *This documentation is to answer number 2.*
 
-#import the necessary library
+# *Import the necessary library*
 import plotly.graph_objects as go
 import dash
 
@@ -13,10 +13,10 @@ import numpy as np
 import pandas as pd
 app = dash.Dash(__name__)
 
-#Load the appropriate data
+# *Load the appropriate data*
 df = pd.read_csv("/Users/gerfiazka/Desktop/LuxuryLoanPortfolio.csv")
 
-
+# *Develop the dashboard*
 app.layout = html.Div(children=[html.Div("<b> Luxury Loan Dashboard",style= {"color": "darkblue",
                                                       "text-align": "center", "background-color": "lightblue",
                                                         "border-style": "line", "display": "inline-block", "width":"100%"
